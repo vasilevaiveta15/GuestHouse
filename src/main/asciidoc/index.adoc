@@ -1,0 +1,902 @@
+=== * ADDRESSES
+==== ADD ADDRESS - INDIVIDUAL IS NOT ACTIVE
+====== Add address - Sample Request 1
+include::{snippets}/address/add/add_address_individual_is_not_active/http-request.adoc[]
+====== Add address - Sample Response 1
+include::{snippets}/address/add/add_address_individual_is_not_active/http-response.adoc[]
+====== Add address - CURL sample 1
+include::{snippets}/address/add/add_address_individual_is_not_active/curl-request.adoc[]
+
+==== ADD ADDRESS - SUCCESSFULLY
+====== Add address - Sample Request 2
+include::{snippets}/address/add/add_address_successfully/http-request.adoc[]
+====== Add address - Sample Response 2
+include::{snippets}/address/add/add_address_successfully/http-response.adoc[]
+====== Add address - CURL sample 2
+include::{snippets}/address/add/add_address_successfully/curl-request.adoc[]
+
+==== ADD ADDRESS - EMPTY CITY
+====== Add address - Sample Request 3
+include::{snippets}/address/add/add_address_with_empty_city/http-request.adoc[]
+====== Add address - Sample Response 3
+include::{snippets}/address/add/add_address_with_empty_city/http-response.adoc[]
+====== Add address - CURL sample 3
+include::{snippets}/address/add/add_address_with_empty_city/curl-request.adoc[]
+
+==== ADD ADDRESS - EMPTY COUNTRY
+====== Add address - Sample Request 4
+include::{snippets}/address/add/add_address_with_empty_country/http-request.adoc[]
+====== Add address - Sample Response 4
+include::{snippets}/address/add/add_address_with_empty_country/http-response.adoc[]
+====== Add address - CURL sample 4
+include::{snippets}/address/add/add_address_with_empty_country/curl-request.adoc[]
+
+
+==== ADD ADDRESS - EMPTY DISTRICT
+====== Add address - Sample Request 5
+include::{snippets}/address/add/add_address_with_empty_district/http-request.adoc[]
+====== Add address - Sample Response 5
+include::{snippets}/address/add/add_address_with_empty_district/http-response.adoc[]
+====== Add address - CURL sample 5
+include::{snippets}/address/add/add_address_with_empty_district/curl-request.adoc[]
+
+==== ADD ADDRESS - WITHOUT INDIVIDUAL
+====== Add address - Sample Request 6
+include::{snippets}/address/add/add_address_there_is_no_individual/curl-request.adoc[]
+====== Add address - Sample Response 6
+include::{snippets}/address/add/add_address_there_is_no_individual/http-response.adoc[]
+====== Add address - CURL sample 6
+include::{snippets}/address/add/add_address_there_is_no_individual/curl-request.adoc[]
+
+==== UPDATE ADDRESS - INDIVIDUAL IS NOT ACTIVE
+====== Update address - Sample Request 1
+include::{snippets}/address/update/update_address_individual_no_active/http-request.adoc[]
+====== Update address - Sample Response 1
+include::{snippets}/address/update/update_address_individual_no_active/http-response.adoc[]
+====== Update address - CURL sample 1
+include::{snippets}/address/update/update_address_individual_no_active/curl-request.adoc[]
+
+==== UPDATE ADDRESS - WITHOUT ADDRESS
+====== Update address - Sample Request 2
+include::{snippets}/address/update/update_address_not_exist/http-request.adoc[]
+====== Update address - Sample Response 2
+include::{snippets}/address/update/update_address_not_exist/http-response.adoc[]
+====== Update address - CURL sample 2
+include::{snippets}/address/update/update_address_not_exist/curl-request.adoc[]
+
+==== UPDATE ADDRESS - SUCCESSFULLY
+====== Update address - Sample Request 3
+include::{snippets}/address/update/update_address_successfully/http-request.adoc[]
+====== Update address - Sample Response 3
+include::{snippets}/address/update/update_address_successfully/http-response.adoc[]
+====== Update address - CURL sample 3
+include::{snippets}/address/update/update_address_successfully/curl-request.adoc[]
+
+==== UPDATE ADDRESS - THERE IS NO INDIVIDUAL
+====== Update address - Sample Request 4
+include::{snippets}/address/update/update_address_there_is_no_individual/http-request.adoc[]
+====== Update address - Sample Response 4
+include::{snippets}/address/update/update_address_there_is_no_individual/http-response.adoc[]
+====== Update address - CURL sample 4
+include::{snippets}/address/update/update_address_there_is_no_individual/curl-request.adoc[]
+
+==== UPDATE ADDRESS - EMPTY CITY
+====== Update address - Sample Request 5
+include::{snippets}/address/update/update_address_with_empty_city/http-request.adoc[]
+====== Update address - Sample Response 5
+include::{snippets}/address/update/update_address_with_empty_city/http-response.adoc[]
+====== Update address - CURL sample 5
+include::{snippets}/address/update/update_address_with_empty_city/curl-request.adoc[]
+
+==== UPDATE ADDRESS - EMPTY COUNTRY
+====== Update address - Sample Request 6
+include::{snippets}/address/update/update_address_with_empty_country/http-request.adoc[]
+====== Update address - Sample Response 6
+include::{snippets}/address/update/update_address_with_empty_country/http-response.adoc[]
+====== Update address - CURL sample 6
+include::{snippets}/address/update/update_address_with_empty_country/curl-request.adoc[]
+
+==== UPDATE ADDRESS - EMPTY DISTRICT
+====== Update address - Sample Request 7
+include::{snippets}/address/update/update_address_with_empty_district/http-request.adoc[]
+====== Update address - Sample Response 7
+include::{snippets}/address/update/update_address_with_empty_district/http-response.adoc[]
+====== Update address - CURL sample 7
+include::{snippets}/address/update/update_address_with_empty_district/curl-request.adoc[]
+
+
+=== * GUEST HOUSES
+==== ADD GUEST HOUSE - NOT ACTIVE INDIVIDUAL
+====== Add Guest House - Sample Request 1
+include::{snippets}/guesthouses/add/add_guest_house_return_individual_is_not_active/http-request.adoc[]
+====== Add Guest House - Sample Response 1
+include::{snippets}/guesthouses/add/add_guest_house_return_individual_is_not_active/http-response.adoc[]
+====== Add Guest House - CURL Response 1
+include::{snippets}/guesthouses/add/add_guest_house_return_individual_is_not_active/curl-request.adoc[]
+
+==== ADD GUEST HOUSE - EMPTY NAME OF HOUSE
+====== Add Guest House - Sample Request 2
+include::{snippets}/guesthouses/add/add_guest_house_return_name_of_house_must_not_be_empty/http-request.adoc[]
+====== Add Guest House - Sample Response 2
+include::{snippets}/guesthouses/add/add_guest_house_return_name_of_house_must_not_be_empty/http-response.adoc[]
+====== Add Guest House - CURL Response 2
+include::{snippets}/guesthouses/add/add_guest_house_return_name_of_house_must_not_be_empty/curl-request.adoc[]
+
+==== ADD GUEST HOUSE - EMPTY NEAREST CITY
+====== Add Guest House - Sample Request 3
+include::{snippets}/guesthouses/add/add_guest_house_return_nearest_city_must_not_be_empty/http-request.adoc[]
+====== Add Guest House - Sample Response 3
+include::{snippets}/guesthouses/add/add_guest_house_return_nearest_city_must_not_be_empty/http-response.adoc[]
+====== Add Guest House - CURL Response 3
+include::{snippets}/guesthouses/add/add_guest_house_return_nearest_city_must_not_be_empty/curl-request.adoc[]
+
+
+==== ADD GUEST HOUSE - WITHOUT INDIVIDUAL
+====== Add Guest House - Sample Request 4
+include::{snippets}/guesthouses/add/add_guest_house_return_there_is_no_individual/http-request.adoc[]
+====== Add Guest House - Sample Response 4
+include::{snippets}/guesthouses/add/add_guest_house_return_there_is_no_individual/http-response.adoc[]
+====== Add Guest House - CURL Response 4
+include::{snippets}/guesthouses/add/add_guest_house_return_there_is_no_individual/curl-request.adoc[]
+
+
+==== ADD GUEST HOUSE - SUCCESSFULLY
+====== Add Guest House - Sample Request 5
+include::{snippets}/guesthouses/add/add_guest_house_successfully/http-request.adoc[]
+====== Add Guest House - Sample Response 5
+include::{snippets}/guesthouses/add/add_guest_house_successfully/http-response.adoc[]
+====== Add Guest House - CURL Response 5
+include::{snippets}/guesthouses/add/add_guest_house_successfully/curl-request.adoc[]
+
+==== ADD GUEST HOUSE - FORBIDDEN
+====== Add Guest House - Sample Request 6
+include::{snippets}/guesthouses/add/add_guest_house_with_forbidden_username/http-request.adoc[]
+====== Add Guest House - Sample Response 6
+include::{snippets}/guesthouses/add/add_guest_house_with_forbidden_username/http-response.adoc[]
+====== Add Guest House - CURL Response 6
+include::{snippets}/guesthouses/add/add_guest_house_with_forbidden_username/curl-request.adoc[]
+
+==== ADD GUEST HOUSE - INVALID FLOORS
+====== Add Guest House - Sample Request 7
+include::{snippets}/guesthouses/add/add_house_num_of_floors_return_invalid_input/http-request.adoc[]
+====== Add Guest House - Sample Response 7
+include::{snippets}/guesthouses/add/add_house_num_of_floors_return_invalid_input/http-response.adoc[]
+====== Add Guest House - CURL Response 7
+include::{snippets}/guesthouses/add/add_house_num_of_floors_return_invalid_input/curl-request.adoc[]
+
+==== ADD GUEST HOUSE - INVALID KM TO THE CAPITAL
+====== Add Guest House - Sample Request 8
+include::{snippets}/guesthouses/add/add_house_return_km_to_the_capital_less_than_five_digits_before_dot_and_less_than_two_after_dot/http-request.adoc[]
+====== Add Guest House - Sample Response 8
+include::{snippets}/guesthouses/add/add_house_return_km_to_the_capital_less_than_five_digits_before_dot_and_less_than_two_after_dot/http-response.adoc[]
+====== Add Guest House - CURL Response 8
+include::{snippets}/guesthouses/add/add_house_return_km_to_the_capital_less_than_five_digits_before_dot_and_less_than_two_after_dot/curl-request.adoc[]
+
+==== ADD GUEST HOUSE - NEGATIVE NUMBER
+====== Add Guest House - Sample Request 9
+include::{snippets}/guesthouses/add/add_house_return_km_to_the_capital_must_be_greater_than_zero/http-request.adoc[]
+====== Add Guest House - Sample Response 9
+include::{snippets}/guesthouses/add/add_house_return_km_to_the_capital_must_be_greater_than_zero/http-response.adoc[]
+====== Add Guest House - CURL Response 9
+include::{snippets}/guesthouses/add/add_house_return_km_to_the_capital_must_be_greater_than_zero/curl-request.adoc[]
+
+==== ADD GUEST HOUSE - INVALID PAYMENT PER DAY
+====== Add Guest House - Sample Request 10
+include::{snippets}/guesthouses/add/add_house_return_payment_per_day_less_than_five_digits_before_dot_and_less_than_two_after_dot/http-request.adoc[]
+====== Add Guest House - Sample Response 10
+include::{snippets}/guesthouses/add/add_house_return_payment_per_day_less_than_five_digits_before_dot_and_less_than_two_after_dot/http-response.adoc[]
+====== Add Guest House - CURL Response 10
+include::{snippets}/guesthouses/add/add_house_return_payment_per_day_less_than_five_digits_before_dot_and_less_than_two_after_dot/curl-request.adoc[]
+
+==== ADD GUEST HOUSE - NEGATIVE NUMBER
+====== Add Guest House - Sample Request 11
+include::{snippets}/guesthouses/add/add_house_return_payment_per_day_must_not_be_less_than_zero/http-request.adoc[]
+====== Add Guest House - Sample Response 11
+include::{snippets}/guesthouses/add/add_house_return_payment_per_day_must_not_be_less_than_zero/http-response.adoc[]
+====== Add Guest House - CURL Response 11
+include::{snippets}/guesthouses/add/add_house_return_payment_per_day_must_not_be_less_than_zero/curl-request.adoc[]
+
+==== ADD GUEST HOUSE - INVALID QUADRATURE
+====== Add Guest House - Sample Request 12
+include::{snippets}/guesthouses/add/add_house_return_quadrature_less_than_five_digits_before_dot_and_less_than_two_after_dot/http-request.adoc[]
+====== Add Guest House - Sample Response 12
+include::{snippets}/guesthouses/add/add_house_return_quadrature_less_than_five_digits_before_dot_and_less_than_two_after_dot/http-response.adoc[]
+====== Add Guest House - CURL Response 12
+include::{snippets}/guesthouses/add/add_house_return_quadrature_less_than_five_digits_before_dot_and_less_than_two_after_dot/curl-request.adoc[]
+
+==== ADD GUEST HOUSE - NEGATIVE NUMBER
+====== Add Guest House - Sample Request 13
+include::{snippets}/guesthouses/add/add_house_return_quadrature_must_not_be_less_than_zero/http-request.adoc[]
+====== Add Guest House - Sample Response 13
+include::{snippets}/guesthouses/add/add_house_return_quadrature_must_not_be_less_than_zero/http-response.adoc[]
+====== Add Guest House - CURL Response 13
+include::{snippets}/guesthouses/add/add_house_return_quadrature_must_not_be_less_than_zero/curl-request.adoc[]
+
+
+==== DELETE GUEST HOUSE - INVALID HOUSE NUMBER
+====== Delete Guest House - Sample Request 1
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_invalid_house_number/http-request.adoc[]
+====== Delete Guest House - Sample Response 1
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_invalid_house_number/http-response.adoc[]
+====== Delete Guest House - CURL Response 1
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_invalid_house_number/curl-request.adoc[]
+
+==== DELETE GUEST HOUSE - HOUSE IS NOT YOURS
+====== Delete Guest House - Sample Request 2
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_house_is_not_yours/http-request.adoc[]
+====== Delete Guest House - Sample Response 2
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_house_is_not_yours/http-response.adoc[]
+====== Delete Guest House - CURL Response 2
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_house_is_not_yours/curl-request.adoc[]
+
+
+==== DELETE GUEST HOUSE - NOT ACTIVE INDIVIDUAL
+====== Delete Guest House - Sample Request 3
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_individual_is_not_active/http-request.adoc[]
+====== Delete Guest House - Sample Response 3
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_individual_is_not_active/http-response.adoc[]
+====== Delete Guest House - CURL Response 3
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_individual_is_not_active/curl-request.adoc[]
+
+
+==== DELETE GUEST HOUSE - INVALID HOUSE NUMBER
+====== Delete Guest House - Sample Request 4
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_invalid_house_number/http-request.adoc[]
+====== Delete Guest House - Sample Response 4
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_invalid_house_number/http-response.adoc[]
+====== Delete Guest House - CURL Response 4
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_invalid_house_number/curl-request.adoc[]
+
+
+==== DELETE GUEST HOUSE - FORBIDDEN
+====== Delete Guest House - Sample Request 5
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_isForbidden/http-request.adoc[]
+====== Delete Guest House - Sample Response 5
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_isForbidden/http-response.adoc[]
+====== Delete Guest House - CURL Response 5
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_isForbidden/curl-request.adoc[]
+
+==== DELETE GUEST HOUSE - SUCCESSFULLY
+====== Delete Guest House - Sample Request 6
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_successfully/http-request.adoc[]
+====== Delete Guest House - Sample Response 6
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_successfully/http-response.adoc[]
+====== Delete Guest House - CURL Response 6
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_successfully/curl-request.adoc[]
+
+==== DELETE GUEST HOUSE - WITHOUT INDIVIDUALS
+====== Delete Guest House - Sample Request 7
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_there_is_no_individual/http-request.adoc[]
+====== Delete Guest House - Sample Response 7
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_there_is_no_individual/http-response.adoc[]
+====== Delete Guest House - CURL Response 7
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_return_there_is_no_individual/curl-request.adoc[]
+
+
+==== DELETE GUEST HOUSE - WITH STING HOUSE NUMBER
+====== Delete Guest House - Sample Request 8
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_with_string_house_number/http-request.adoc[]
+====== Delete Guest House - Sample Response 8
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_with_string_house_number/http-response.adoc[]
+====== Delete Guest House - CURL Response 8
+include::{snippets}/guesthouses/deleteguesthouse/delete_guest_house_with_string_house_number/curl-request.adoc[]
+
+
+==== SEARCH GUEST HOUSE - INVALID MAX PAYMENT
+====== Delete Guest House - Sample Request 1
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_invalid_input_maxPayment_must_not_be_negative_number/http-request.adoc[]
+====== Delete Guest House - Sample Response 1
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_invalid_input_maxPayment_must_not_be_negative_number/http-response.adoc[]
+====== Delete Guest House - CURL Response 1
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_invalid_input_maxPayment_must_not_be_negative_number/curl-request.adoc[]
+
+==== SEARCH GUEST HOUSE - INVALID MIN PAYMENT
+====== Delete Guest House - Sample Request 2
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_invalid_input_minPayment_must_not_be_negative_number/http-request.adoc[]
+====== Delete Guest House - Sample Response 2
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_invalid_input_minPayment_must_not_be_negative_number/http-response.adoc[]
+====== Delete Guest House - CURL Response 2
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_invalid_input_minPayment_must_not_be_negative_number/curl-request.adoc[]
+
+
+==== SEARCH GUEST HOUSE - INVALID INPUT PAGE CAPACITY
+====== Delete Guest House - Sample Request 3
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_invalid_input_page_capacity_must_not_be_negative/http-request.adoc[]
+====== Delete Guest House - Sample Response 3
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_invalid_input_page_capacity_must_not_be_negative/http-response.adoc[]
+====== Delete Guest House - CURL Response 3
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_invalid_input_page_capacity_must_not_be_negative/curl-request.adoc[]
+
+
+==== SEARCH GUEST HOUSE - INVALID FLOORS
+====== Delete Guest House - Sample Request 4
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_invalid_num_of_floors/http-request.adoc[]
+====== Delete Guest House - Sample Response 4
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_invalid_num_of_floors/http-response.adoc[]
+====== Delete Guest House - CURL Response 4
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_invalid_num_of_floors/curl-request.adoc[]
+
+
+==== SEARCH GUEST HOUSE - OK
+====== Delete Guest House - Sample Request 5
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_is_ok/http-request.adoc[]
+====== Delete Guest House - Sample Response 5
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_is_ok/http-response.adoc[]
+====== Delete Guest House - CURL Response 5
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_is_ok/curl-request.adoc[]
+
+==== SEARCH GUEST HOUSE - MAX PAYMENT 5 . 2
+====== Delete Guest House - Sample Request 6
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_maxPayment_must_has_before_dot_five_numbers_and_after_two_number/http-request.adoc[]
+====== Delete Guest House - Sample Response 6
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_maxPayment_must_has_before_dot_five_numbers_and_after_two_number/http-response.adoc[]
+====== Delete Guest House - CURL Response 6
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_maxPayment_must_has_before_dot_five_numbers_and_after_two_number/curl-request.adoc[]
+
+==== SEARCH GUEST HOUSE - MIN PAYMENT 5 . 2
+====== Delete Guest House - Sample Request 7
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_minPayment_must_has_before_dot_five_numbers_and_after_two_number/http-request.adoc[]
+====== Delete Guest House - Sample Response 7
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_minPayment_must_has_before_dot_five_numbers_and_after_two_number/http-response.adoc[]
+====== Delete Guest House - CURL Response 7
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_minPayment_must_has_before_dot_five_numbers_and_after_two_number/curl-request.adoc[]
+
+
+==== SEARCH GUEST HOUSE - INVALID PAGE CAPACITY(MIN)
+====== Delete Guest House - Sample Request 8
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_page_capacity_invalid_input_min/http-request.adoc[]
+====== Delete Guest House - Sample Response 8
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_page_capacity_invalid_input_min/http-response.adoc[]
+====== Delete Guest House - CURL Response 8
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_page_capacity_invalid_input_min/curl-request.adoc[]
+
+==== SEARCH GUEST HOUSE - INVALID PAGE CAPACITY(MAX)
+====== Delete Guest House - Sample Request 9
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_page_capacity_invalid_input_max/http-request.adoc[]
+====== Delete Guest House - Sample Response 9
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_page_capacity_invalid_input_max/http-response.adoc[]
+====== Delete Guest House - CURL Response 9
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_page_capacity_invalid_input_max/curl-request.adoc[]
+
+
+==== SEARCH GUEST HOUSE - INVALID PAGE NUMBER
+====== Delete Guest House - Sample Request 10
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_page_number_invalid_input/http-request.adoc[]
+====== Delete Guest House - Sample Response 10
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_page_number_invalid_input/http-response.adoc[]
+====== Delete Guest House - CURL Response 10
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_page_number_invalid_input/curl-request.adoc[]
+
+==== SEARCH GUEST HOUSE - INVALID QUADRATURE
+====== Delete Guest House - Sample Request 11
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_quadrature_must_has_before_dot_five_numbers_and_after_two_number/http-request.adoc[]
+====== Delete Guest House - Sample Response 11
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_quadrature_must_has_before_dot_five_numbers_and_after_two_number/http-response.adoc[]
+====== Delete Guest House - CURL Response 11
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_quadrature_must_has_before_dot_five_numbers_and_after_two_number/curl-request.adoc[]
+
+==== SEARCH GUEST HOUSE - SUCCESSFULLY
+====== Delete Guest House - Sample Request 12
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_successfully/http-request.adoc[]
+====== Delete Guest House - Sample Response 12
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_successfully/http-response.adoc[]
+====== Delete Guest House - CURL Response 12
+include::{snippets}/guesthouses/searchbycriteria/search_by_criteria_return_successfully/curl-request.adoc[]
+
+
+==== CHANGE PAYMENT OF GUEST HOUSE - EMPTY HOUSE NUMBER
+====== Delete Guest House - Sample Request 1
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_house_number_cannot_be_empty/http-request.adoc[]
+====== Delete Guest House - Sample Response 1
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_house_number_cannot_be_empty/http-response.adoc[]
+====== Delete Guest House - CURL Response 1
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_house_number_cannot_be_empty/curl-request.adoc[]
+
+==== CHANGE PAYMENT OF GUEST HOUSE - NOT ACTIVE INDIVIDUAL
+====== Delete Guest House - Sample Request 2
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_individual_is_not_active/http-request.adoc[]
+====== Delete Guest House - Sample Response 2
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_individual_is_not_active/http-response.adoc[]
+====== Delete Guest House - CURL Response 2
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_individual_is_not_active/curl-request.adoc[]
+
+
+==== CHANGE PAYMENT OF GUEST HOUSE - INVALID HOUSE NUMBER
+====== Delete Guest House - Sample Request 3
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_invalid_input_for_guest_house_id/http-request.adoc[]
+====== Delete Guest House - Sample Response 3
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_invalid_input_for_guest_house_id/http-response.adoc[]
+====== Delete Guest House - CURL Response 3
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_invalid_input_for_guest_house_id/curl-request.adoc[]
+
+
+==== CHANGE PAYMENT OF GUEST HOUSE - INVALID PAYMENT
+====== Delete Guest House - Sample Request 4
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_invalid_input_for_payment_per_day/http-request.adoc[]
+====== Delete Guest House - Sample Response 4
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_invalid_input_for_payment_per_day/http-response.adoc[]
+====== Delete Guest House - CURL Response 4
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_invalid_input_for_payment_per_day/curl-request.adoc[]
+
+
+==== CHANGE PAYMENT OF GUEST HOUSE - EMPTY PAYMENT
+====== Delete Guest House - Sample Request 5
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_payment_cannot_be_empty/http-request.adoc[]
+====== Delete Guest House - Sample Response 5
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_payment_cannot_be_empty/http-response.adoc[]
+====== Delete Guest House - CURL Response 5
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_payment_cannot_be_empty/curl-request.adoc[]
+
+==== CHANGE PAYMENT OF GUEST HOUSE - SUCCESSFULLY
+====== Delete Guest House - Sample Request 6
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_successfully/http-request.adoc[]
+====== Delete Guest House - Sample Response 6
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_successfully/http-response.adoc[]
+====== Delete Guest House - CURL Response 6
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_successfully/curl-request.adoc[]
+
+==== CHANGE PAYMENT OF GUEST HOUSE - WITHOUT INDIVIDUALS
+====== Delete Guest House - Sample Request 7
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_there_is_no_individual/http-request.adoc[]
+====== Delete Guest House - Sample Response 7
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_there_is_no_individual/http-response.adoc[]
+====== Delete Guest House - CURL Response 7
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_there_is_no_individual/curl-request.adoc[]
+
+
+==== CHANGE PAYMENT OF GUEST HOUSE - HOUSE IS NOT YOURS
+====== Delete Guest House - Sample Request 8
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_this_house_is_not_yours/http-request.adoc[]
+====== Delete Guest House - Sample Response 8
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_this_house_is_not_yours/http-response.adoc[]
+====== Delete Guest House - CURL Response 8
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_this_house_is_not_yours/curl-request.adoc[]
+
+
+==== CHANGE PAYMENT OF GUEST HOUSE - FORBIDDEN
+====== Delete Guest House - Sample Request 9
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_with_forbidden_username/http-request.adoc[]
+====== Delete Guest House - Sample Response 9
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_with_forbidden_username/http-response.adoc[]
+====== Change payment Guest House - CURL Response 9
+include::{snippets}/guesthouses/updatepayment/change_payment_per_day_return_with_forbidden_username/curl-request.adoc[]
+
+
+==== UPDATE RELEASE GUEST HOUSE - NOT ACTIVE INDIVIDUAL
+====== Update rent Guest House - Sample Request 1
+include::{snippets}/guesthouses/updatereleasehouse/release_house_individual_is_not_active/http-request.adoc[]
+====== Update rent Guest House - Sample Response 1
+include::{snippets}/guesthouses/updatereleasehouse/release_house_individual_is_not_active/http-response.adoc[]
+====== Update rent Guest House - CURL Response 1
+include::{snippets}/guesthouses/updatereleasehouse/release_house_individual_is_not_active/curl-request.adoc[]
+
+==== UPDATE RELEASE GUEST HOUSE - INVALID HOUSE NUMBER
+====== Update rent Guest House - Sample Request 2
+include::{snippets}/guesthouses/updatereleasehouse/release_house_invalid_house_number/http-request.adoc[]
+====== Update rent Guest House - Sample Response 2
+include::{snippets}/guesthouses/updatereleasehouse/release_house_invalid_house_number/http-response.adoc[]
+====== Update rent Guest House - CURL Response 2
+include::{snippets}/guesthouses/updatereleasehouse/release_house_invalid_house_number/curl-request.adoc[]
+
+
+==== UPDATE RELEASE GUEST HOUSE - HOUSE NOT RENTED YET
+====== Update rent Guest House - Sample Request 3
+include::{snippets}/guesthouses/updatereleasehouse/release_house_return_house_is_not_rented_yet/http-request.adoc[]
+====== Update rent Guest House - Sample Response 3
+include::{snippets}/guesthouses/updatereleasehouse/release_house_return_house_is_not_rented_yet/http-response.adoc[]
+====== Update rent Guest House - CURL Response 3
+include::{snippets}/guesthouses/updatereleasehouse/release_house_return_house_is_not_rented_yet/curl-request.adoc[]
+
+
+==== UPDATE RELEASE GUEST HOUSE - FORBIDDEN
+====== Update rent Guest House - Sample Request 4
+include::{snippets}/guesthouses/updatereleasehouse/release_house_return_is_forbidden/http-request.adoc[]
+====== Update rent Guest House - Sample Response 4
+include::{snippets}/guesthouses/updatereleasehouse/release_house_return_is_forbidden/http-response.adoc[]
+====== Update rent Guest House - CURL Response 4
+include::{snippets}/guesthouses/updatereleasehouse/release_house_return_is_forbidden/curl-request.adoc[]
+
+
+==== UPDATE RELEASE GUEST HOUSE - WITHOUT INDIVIDUAL
+====== Update rent Guest House - Sample Request 5
+include::{snippets}/guesthouses/updatereleasehouse/release_house_return_there_is_no_individual/http-request.adoc[]
+====== Update rent Guest House - Sample Response 5
+include::{snippets}/guesthouses/updatereleasehouse/release_house_return_there_is_no_individual/http-response.adoc[]
+====== Update rent Guest House - CURL Response 5
+include::{snippets}/guesthouses/updatereleasehouse/release_house_return_there_is_no_individual/curl-request.adoc[]
+
+==== UPDATE RELEASE GUEST HOUSE - SUCCESSFULLY
+====== Update rent Guest House - Sample Request 6
+include::{snippets}/guesthouses/updatereleasehouse/release_house_successfully/http-request.adoc[]
+====== Update rent Guest House - Sample Response 6
+include::{snippets}/guesthouses/updatereleasehouse/release_house_successfully/http-response.adoc[]
+====== Update rent Guest House - CURL Response 6
+include::{snippets}/guesthouses/updatereleasehouse/release_house_successfully/curl-request.adoc[]
+
+==== UPDATE RELEASE GUEST HOUSE - INVALID HOUSE NUMBER
+====== Update rent Guest House - Sample Request 7
+include::{snippets}/guesthouses/updatereleasehouse/release_house_invalid_house_number/http-request.adoc[]
+====== Update rent Guest House - Sample Response 7
+include::{snippets}/guesthouses/updatereleasehouse/release_house_invalid_house_number/http-response.adoc[]
+====== Update rent Guest House - CURL Response 7
+include::{snippets}/guesthouses/updatereleasehouse/release_house_invalid_house_number/curl-request.adoc[]
+
+
+==== UPDATE RELEASE GUEST HOUSE - WITH STING HOUSE NUMBER
+====== Delete Guest House - Sample Request 8
+include::{snippets}/guesthouses/updatereleasehouse/release_with_string/http-request.adoc[]
+====== Delete Guest House - Sample Response 8
+include::{snippets}/guesthouses/updatereleasehouse/release_with_string/http-response.adoc[]
+====== Update rent Guest House - CURL Response 8
+include::{snippets}/guesthouses/updatereleasehouse/release_with_string/curl-request.adoc[]
+
+
+
+==== UPDATE RENT GUEST HOUSE - NOT ACTIVE INDIVIDUAL
+====== Update rent Guest House - Sample Request 1
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_individual_is_not_active/http-request.adoc[]
+====== Update rent Guest House - Sample Response 1
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_individual_is_not_active/http-response.adoc[]
+====== Update rent Guest House - CURL Response 1
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_individual_is_not_active/curl-request.adoc[]
+
+==== UPDATE RENT GUEST HOUSE - INVALID HOUSE NUMBER
+====== Update rent Guest House - Sample Request 2
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_invalid_house_number/http-request.adoc[]
+====== Update rent Guest House - Sample Response 2
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_invalid_house_number/http-response.adoc[]
+====== Update rent Guest House - CURL Response 2
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_invalid_house_number/curl-request.adoc[]
+
+
+==== UPDATE RENT GUEST HOUSE - HOUSE NOT RENTED YET
+====== Update rent Guest House - Sample Request 3
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_invalid_number_num_of_input_rented_days/http-request.adoc[]
+====== Update rent Guest House - Sample Response 3
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_invalid_number_num_of_input_rented_days/http-response.adoc[]
+====== Update rent Guest House - CURL Response 3
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_invalid_number_num_of_input_rented_days/curl-request.adoc[]
+
+
+==== UPDATE RENT GUEST HOUSE - INVALID HOUSE NUMBER
+====== Update rent Guest House - Sample Request 4
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_invalid_number_of_house/http-request.adoc[]
+====== Update rent Guest House - Sample Response 4
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_invalid_number_of_house/http-response.adoc[]
+====== Update rent Guest House - CURL Response 4
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_invalid_number_of_house/curl-request.adoc[]
+
+
+==== UPDATE RENT GUEST HOUSE - INVALID RENTED DAYS
+====== Update rent Guest House - Sample Request 5
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_number_num_of_input_rented_days_cannot_be_empty/http-request.adoc[]
+====== Update rent Guest House - Sample Response 5
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_number_num_of_input_rented_days_cannot_be_empty/http-response.adoc[]
+====== Update rent Guest House - CURL Response 5
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_number_num_of_input_rented_days_cannot_be_empty/curl-request.adoc[]
+
+==== UPDATE RENT GUEST HOUSE - EMPTY RENTED DAYS
+====== Update rent Guest House - Sample Request 6
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_number_of_house_must_not_be_empty/http-request.adoc[]
+====== Update rent Guest House - Sample Response 6
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_number_of_house_must_not_be_empty/http-response.adoc[]
+====== Update rent Guest House - CURL Response 6
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_number_of_house_must_not_be_empty/curl-request.adoc[]
+
+==== UPDATE RENT GUEST HOUSE -WITHOUT INDIVIDUAL
+====== Update rent Guest House - Sample Request 7
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_there_is_no_individual/http-request.adoc[]
+====== Update rent Guest House - Sample Response 7
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_there_is_no_individual/http-response.adoc[]
+====== Update rent Guest House - CURL Response 7
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_there_is_no_individual/curl-request.adoc[]
+
+
+==== UPDATE RENT GUEST HOUSE - HOUSE ALREADY RENTED
+====== Delete Guest House - Sample Request 8
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_this_house_already_rented/http-request.adoc[]
+====== Delete Guest House - Sample Response 8
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_this_house_already_rented/http-response.adoc[]
+====== Update rent Guest House - CURL Response 8
+include::{snippets}/guesthouses/updaterenthouses/rent_house_return_this_house_already_rented/curl-request.adoc[]
+
+==== UPDATE RENT GUEST HOUSE - SUCCESSFULLY
+====== Update rent House - Sample Request 9
+include::{snippets}/guesthouses/updaterenthouses/rent_house_successfully/http-request.adoc[]
+====== Update rent House - Sample Response 9
+include::{snippets}/guesthouses/updaterenthouses/rent_house_successfully/http-response.adoc[]
+====== Update rent House - CURL Response 9
+include::{snippets}/guesthouses/updaterenthouses/rent_house_successfully/curl-request.adoc[]
+
+
+==== UPDATE RENT GUEST HOUSE - FORBIDDEN
+====== Update rent Guest House - Sample Request 10
+include::{snippets}/guesthouses/updaterenthouses/rent_house_with_forbidden_username/http-request.adoc[]
+====== Update rent House - Sample Response 10
+include::{snippets}/guesthouses/updaterenthouses/rent_house_with_forbidden_username/http-response.adoc[]
+====== Update rent House - CURL Response 10
+include::{snippets}/guesthouses/updaterenthouses/rent_house_with_forbidden_username/curl-request.adoc[]
+
+
+
+=== * INDIVIDUALS
+
+==== ADD INDIVIDUAL - INDIVIDUAL ALREADY EXIST
+====== Add individual - Sample Request 1
+include::{snippets}/individuals/add/add_individual_already_have_individual/http-request.adoc[]
+====== Add individual - Sample Response 1
+include::{snippets}/individuals/add/add_individual_already_have_individual/http-response.adoc[]
+====== Add individual - CURL sample 1
+include::{snippets}/individuals/add/add_individual_already_have_individual/curl-request.adoc[]
+
+==== ADD INDIVIDUAL - CARD NUMBER EXIST
+====== Add individual - Sample Request 2
+include::{snippets}/individuals/add/add_individual_return_card_number_already_exist/http-request.adoc[]
+====== Add individual - Sample Response 2
+include::{snippets}/individuals/add/add_individual_return_card_number_already_exist/http-response.adoc[]
+====== Add individual - CURL sample 2
+include::{snippets}/individuals/add/add_individual_return_card_number_already_exist/curl-request.adoc[]
+
+==== ADD INDIVIDUAL - INVALID CARD NUMBER
+====== Add individual - Sample Request 3
+include::{snippets}/individuals/add/add_individual_return_card_number_is_invalid/http-request.adoc[]
+====== Add individual - Sample Response 3
+include::{snippets}/individuals/add/add_individual_return_card_number_is_invalid/http-response.adoc[]
+====== Add individual - CURL sample 3
+include::{snippets}/individuals/add/add_individual_return_card_number_is_invalid/curl-request.adoc[]
+
+==== ADD INDIVIDUAL - EMPTY CARD NUMBER
+====== Add individual - Sample Request 4
+include::{snippets}/individuals/add/add_individual_return_card_number_must_not_be_empty/http-request.adoc[]
+====== Add individual - Sample Response 4
+include::{snippets}/individuals/add/add_individual_return_card_number_must_not_be_empty/http-response.adoc[]
+====== Add individual - CURL sample 4
+include::{snippets}/individuals/add/add_individual_return_card_number_must_not_be_empty/curl-request.adoc[]
+
+
+==== ADD INDIVIDUAL - INVALID EMAIL
+====== Add individual - Sample Request 5
+include::{snippets}/individuals/add/add_individual_return_email_is_invalid/http-request.adoc[]
+====== Add individual - Sample Response 5
+include::{snippets}/individuals/add/add_individual_return_email_is_invalid/http-response.adoc[]
+====== Add individual - CURL sample 5
+include::{snippets}/individuals/add/add_individual_return_email_is_invalid/curl-request.adoc[]
+
+==== ADD INDIVIDUAL - EMPTY EMAIL
+====== Add individual - Sample Request 6
+include::{snippets}/individuals/add/add_individual_return_email_must_not_be_empty/curl-request.adoc[]
+====== Add individual - Sample Response 6
+include::{snippets}/individuals/add/add_individual_return_email_must_not_be_empty/http-response.adoc[]
+====== Add individual - CURL sample 6
+include::{snippets}/individuals/add/add_individual_return_email_must_not_be_empty/curl-request.adoc[]
+
+==== ADD INDIVIDUAL - EMPTY FIRST NAME
+====== Add individual - Sample Request 7
+include::{snippets}/individuals/add/add_individual_return_first_name_must_not_be_empty/curl-request.adoc[]
+====== Add individual - Sample Response 7
+include::{snippets}/individuals/add/add_individual_return_first_name_must_not_be_empty/http-response.adoc[]
+====== Add individual - CURL sample 7
+include::{snippets}/individuals/add/add_individual_return_first_name_must_not_be_empty/curl-request.adoc[]
+
+
+==== ADD INDIVIDUAL - INVALID PHONE NUMBER
+====== Add individual - Sample Request 8
+include::{snippets}/individuals/add/add_individual_return_invalid_phone_number/curl-request.adoc[]
+====== Add individual - Sample Response 8
+include::{snippets}/individuals/add/add_individual_return_invalid_phone_number/http-response.adoc[]
+====== Add individual - CURL sample 8
+include::{snippets}/individuals/add/add_individual_return_invalid_phone_number/curl-request.adoc[]
+
+==== ADD INDIVIDUAL - EMPTY LAST NAME
+====== Add individual - Sample Request 9
+include::{snippets}/individuals/add/add_individual_return_last_name_must_not_be_empty/curl-request.adoc[]
+====== Add individual - Sample Response 9
+include::{snippets}/individuals/add/add_individual_return_last_name_must_not_be_empty/http-response.adoc[]
+====== Add individual - CURL sample 9
+include::{snippets}/individuals/add/add_individual_return_last_name_must_not_be_empty/curl-request.adoc[]
+
+==== ADD INDIVIDUAL - EMPTY MIDDLE NAME
+====== Add individual - Sample Request 10
+include::{snippets}/individuals/add/add_individual_return_middle_name_must_not_be_empty/curl-request.adoc[]
+====== Add individual - Sample Response 10
+include::{snippets}/individuals/add/add_individual_return_middle_name_must_not_be_empty/http-response.adoc[]
+====== Add individual - CURL sample 10
+include::{snippets}/individuals/add/add_individual_return_middle_name_must_not_be_empty/curl-request.adoc[]
+
+==== ADD INDIVIDUAL - SUCCESSFULLY
+====== Add individual - Sample Request 11
+include::{snippets}/individuals/add/add_individual_successfully/curl-request.adoc[]
+====== Add individual - Sample Response 11
+include::{snippets}/individuals/add/add_individual_successfully/http-response.adoc[]
+====== Add individual - CURL sample 11
+include::{snippets}/individuals/add/add_individual_successfully/curl-request.adoc[]
+
+==== UPDATE INDIVIDUAL - INVALID EMAIL
+====== Update individual - Sample Request 1
+include::{snippets}/individuals/update/change_individual_return_email_is_invalid/http-request.adoc[]
+====== Update individual - Sample Response 1
+include::{snippets}/individuals/update/change_individual_return_email_is_invalid/http-response.adoc[]
+====== Update individual - CURL sample 1
+include::{snippets}/individuals/update/change_individual_return_email_is_invalid/curl-request.adoc[]
+
+==== UPDATE INDIVIDUAL - EMPTY EMAIL
+====== Update individual - Sample Request 2
+include::{snippets}/individuals/update/change_individual_return_email_must_not_be_empty/http-request.adoc[]
+====== Update individual - Sample Response 2
+include::{snippets}/individuals/update/change_individual_return_email_must_not_be_empty/http-response.adoc[]
+====== Update individual - CURL sample 2
+include::{snippets}/individuals/update/change_individual_return_email_must_not_be_empty/curl-request.adoc[]
+
+==== UPDATE INDIVIDUAL - NOT ACTIVE INDIVIDUAL
+====== Update individual - Sample Request 3
+include::{snippets}/individuals/update/change_individual_return_individual_not_active/http-request.adoc[]
+====== Update individual - Sample Response 3
+include::{snippets}/individuals/update/change_individual_return_individual_not_active/http-response.adoc[]
+====== Update individual - CURL sample 3
+include::{snippets}/individuals/update/change_individual_return_individual_not_active/curl-request.adoc[]
+
+==== UPDATE INDIVIDUAL - INVALID PHONE NUMBER
+====== Update individual - Sample Request 4
+include::{snippets}/individuals/update/change_individual_return_invalid_phone_number/http-request.adoc[]
+====== Update individual - Sample Response 4
+include::{snippets}/individuals/update/change_individual_return_invalid_phone_number/http-response.adoc[]
+====== Update individual - CURL sample 4
+include::{snippets}/individuals/update/change_individual_return_invalid_phone_number/curl-request.adoc[]
+
+==== UPDATE INDIVIDUAL - EMPTY PHONE NUMBER
+====== Update individual - Sample Request 5
+include::{snippets}/individuals/update/change_individual_return_phone_number_must_not_be_empty/http-request.adoc[]
+====== Update individual - Sample Response 5
+include::{snippets}/individuals/update/change_individual_return_phone_number_must_not_be_empty/http-response.adoc[]
+====== Update individual - CURL sample 5
+include::{snippets}/individuals/update/change_individual_return_phone_number_must_not_be_empty/curl-request.adoc[]
+
+==== UPDATE INDIVIDUAL - WITHOUT INDIVIDUAL
+====== Update individual - Sample Request 6
+include::{snippets}/individuals/update/change_individual_return_there_is_no_individual/http-request.adoc[]
+====== Update individual - Sample Response 6
+include::{snippets}/individuals/update/change_individual_return_there_is_no_individual/http-response.adoc[]
+====== Update individual - CURL sample 6
+include::{snippets}/individuals/update/change_individual_return_there_is_no_individual/curl-request.adoc[]
+
+==== UPDATE INDIVIDUAL - SUCCESSFULLY
+====== Update individual - Sample Request 7
+include::{snippets}/individuals/update/change_individual_successfully/http-request.adoc[]
+====== Update individual - Sample Response 7
+include::{snippets}/individuals/update/change_individual_successfully/http-response.adoc[]
+====== Update individual - CURL sample 7
+include::{snippets}/individuals/update/change_individual_successfully/curl-request.adoc[]
+
+
+=== * LOGIN
+==== LOGIN - SUCCESSFULLY
+====== Login - Sample Request 1
+include::{snippets}/login/successfully/http-request.adoc[]
+====== Login - Sample Response 1
+include::{snippets}/login/successfully/http-response.adoc[]
+====== Login - CURL sample 1
+include::{snippets}/login/successfully/curl-request.adoc[]
+
+
+=== * USERS
+==== REGISTER USER - SUCCESSFULLY
+====== Add individual - Sample Request 1
+include::{snippets}/users/add/register_address_successfully/http-request.adoc[]
+====== Add individual - Sample Response 1
+include::{snippets}/users/add/register_address_successfully/http-response.adoc[]
+====== Add individual - CURL sample 1
+include::{snippets}/users/add/register_address_successfully/curl-request.adoc[]
+
+====  REGISTER USER - INVALID ROLE
+====== Add individual - Sample Request 2
+include::{snippets}/users/add/register_user_return_invalid_role/http-request.adoc[]
+====== Add individual - Sample Response 2
+include::{snippets}/users/add/register_user_return_invalid_role/http-response.adoc[]
+====== Add individual - CURL sample 2
+include::{snippets}/users/add/register_user_return_invalid_role/curl-request.adoc[]
+
+====  REGISTER USER - INVALID USERNAME
+====== Add individual - Sample Request 3
+include::{snippets}/users/add/register_user_return_invalid_username/http-request.adoc[]
+====== Add individual - Sample Response 3
+include::{snippets}/users/add/register_user_return_invalid_username/http-response.adoc[]
+====== Add individual - CURL sample 3
+include::{snippets}/users/add/register_user_return_invalid_username/curl-request.adoc[]
+
+====  REGISTER USER - PASSWORD DONT MATCH
+====== Add individual - Sample Request 4
+include::{snippets}/users/add/register_user_return_password_dont_match/http-request.adoc[]
+====== Add individual - Sample Response 4
+include::{snippets}/users/add/register_user_return_password_dont_match/http-response.adoc[]
+====== Add individual - CURL sample 4
+include::{snippets}/users/add/register_user_return_password_dont_match/curl-request.adoc[]
+
+
+====  REGISTER USER - CONTAIN DIGIT
+====== Add individual - Sample Request 5
+include::{snippets}/users/add/register_user_return_password_must_contain_digit/http-request.adoc[]
+====== Add individual - Sample Response 5
+include::{snippets}/users/add/register_user_return_password_must_contain_digit/http-response.adoc[]
+====== Add individual - CURL sample 5
+include::{snippets}/users/add/register_user_return_password_must_contain_digit/curl-request.adoc[]
+
+====  REGISTER USER - CONTAIN LOWER CASE
+====== Add individual - Sample Request 6
+include::{snippets}/users/add/register_user_return_password_must_contain_lower_case/curl-request.adoc[]
+====== Add individual - Sample Response 6
+include::{snippets}/users/add/register_user_return_password_must_contain_lower_case/http-response.adoc[]
+====== Add individual - CURL sample 6
+include::{snippets}/users/add/register_user_return_password_must_contain_lower_case/curl-request.adoc[]
+
+====  REGISTER USER - CONTAIN SEVEN SYMBOLS
+====== Add individual - Sample Request 7
+include::{snippets}/users/add/register_user_return_password_must_contain_minimum_seven_symbols/curl-request.adoc[]
+====== Add individual - Sample Response 7
+include::{snippets}/users/add/register_user_return_password_must_contain_minimum_seven_symbols/http-response.adoc[]
+====== Add individual - CURL sample 7
+include::{snippets}/users/add/register_user_return_password_must_contain_minimum_seven_symbols/curl-request.adoc[]
+
+====  REGISTER USER - CONTAIN UPPER CASE
+====== Add individual - Sample Request 8
+include::{snippets}/users/add/register_user_return_password_must_contain_upper_case/curl-request.adoc[]
+====== Add individual - Sample Response 8
+include::{snippets}/users/add/register_user_return_password_must_contain_upper_case/http-response.adoc[]
+====== Add individual - CURL sample 8
+include::{snippets}/users/add/register_user_return_password_must_contain_upper_case/curl-request.adoc[]
+
+====  REGISTER USER - EMPTY PASSWORD
+====== Add individual - Sample Request 9
+include::{snippets}/users/add/register_user_return_password_must_not_be_empty/curl-request.adoc[]
+====== Add individual - Sample Response 9
+include::{snippets}/users/add/register_user_return_password_must_not_be_empty/http-response.adoc[]
+====== Add individual - CURL sample 9
+include::{snippets}/users/add/register_user_return_password_must_not_be_empty/curl-request.adoc[]
+
+====  REGISTER USER - CONTAIN WHITE SPACE
+====== Add individual - Sample Request 10
+include::{snippets}/users/add/register_user_return_password_must_not_contain_white_space/curl-request.adoc[]
+====== Add individual - Sample Response 10
+include::{snippets}/users/add/register_user_return_password_must_not_contain_white_space/http-response.adoc[]
+====== Add individual - CURL sample 10
+include::{snippets}/users/add/register_user_return_password_must_not_contain_white_space/curl-request.adoc[]
+
+====  REGISTER USER - EMPTY REPEAT PASSWORD
+====== Add individual - Sample Request 11
+include::{snippets}/users/add/register_user_return_repeat_password_must_not_be_empty/curl-request.adoc[]
+====== Add individual - Sample Response 11
+include::{snippets}/users/add/register_user_return_repeat_password_must_not_be_empty/http-response.adoc[]
+====== Add individual - CURL sample 11
+include::{snippets}/users/add/register_user_return_repeat_password_must_not_be_empty/curl-request.adoc[]
+
+====  REGISTER USER - EMPTY ROLE
+====== Add individual - Sample Request 12
+include::{snippets}/users/add/register_user_return_role_must_not_be_empty/curl-request.adoc[]
+====== Add individual - Sample Response 12
+include::{snippets}/users/add/register_user_return_role_must_not_be_empty/http-response.adoc[]
+====== Add individual - CURL sample 12
+include::{snippets}/users/add/register_user_return_role_must_not_be_empty/curl-request.adoc[]
+
+====  REGISTER USER - EMPTY USERNAME
+====== Add individual - Sample Request 13
+include::{snippets}/users/add/register_user_return_username_must_not_be_empty/curl-request.adoc[]
+====== Add individual - Sample Response 13
+include::{snippets}/users/add/register_user_return_username_must_not_be_empty/http-response.adoc[]
+====== Add individual - CURL sample 13
+include::{snippets}/users/add/register_user_return_username_must_not_be_empty/curl-request.adoc[]
+
+====  REGISTER USER - ALREADY EXIST USERNAME
+====== Add individual - Sample Request 14
+include::{snippets}/users/add/register_user_with_already_exist_username/curl-request.adoc[]
+====== Add individual - Sample Response 14
+include::{snippets}/users/add/register_user_with_already_exist_username/http-response.adoc[]
+====== Add individual - CURL sample 14
+include::{snippets}/users/add/register_user_with_already_exist_username/curl-request.adoc[]
+
+
+====  REGISTER USER - CONTAIN SPECIAL SYMBOL
+====== Add individual - Sample Request 15
+include::{snippets}/users/add/register_user_return_password_must_contain_special_symbol/curl-request.adoc[]
+====== Add individual - Sample Response 15
+include::{snippets}/users/add/register_user_return_password_must_contain_special_symbol/http-response.adoc[]
+====== Add individual - CURL sample 15
+include::{snippets}/users/add/register_user_return_password_must_contain_special_symbol/curl-request.adoc[]
